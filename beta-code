@@ -1,0 +1,1529 @@
+<!doctype html>
+  <!--Gaming Center!-->
+  <html class="home" dir="ltr" lang="en-US">
+  <head>
+  
+  <!--Meta Charset, Viewport, Description, Keywords, og:title, color-scheme, and Title -->
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+   <!--[if IE]>
+    <script>
+    alert("Oops! An error occurred whilst trying to load or perform an action on this website. If this is a reoccurring error, please email support (oldregentcell@gmail.com), file a bug report at our GitHub: https://github.com/Aiden-GoodarziRad/Gaming-Center/issues, or please upgrade to a newer browser. Error Code: 0xFG110");
+    document.getElementById('font').style.display = "none";
+    </script>
+  <![endif]-->
+  <meta charset="UTF-8">
+  <meta name="description" content="On this website you will find gaming tips, tricks, and tutorials with detailed videos and paragraphs with sections for Minecraft, Super Smash Bros, Valorant, and Roblox with a new Hypixel Guide LTM."> 
+  <meta name="keywords" content="Minecraft, Gaming tips, Gaming tricks, Gaming tutorials, Call of Duty, COD, Roblox, SSB Ultimate, Super Smash Bros, Gaming Center, Hypixel, Guide, Guides."> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Gaming Center Home Page">
+  <meta name="author" content="Aiden GoodarziRad">
+  <meta property="og:image" content=”https://i.imgur.com/yEYlMc4.png” />
+  <meta content="dark" name="color-scheme">
+  <title>(0) Home: Gaming Center Beta Build</title>
+  
+  <!--Favicon-->
+  
+  <link rel="icon" type="image/x-icon" href="https://i.imgur.com/jmHLMFF.jpg" />
+  <link rel="apple-touch-icon" href="https://i.imgur.com/jmHLMFF.jpg" />
+  <link rel="shortcut icon" href="https://i.imgur.com/jmHLMFF.jpg" />
+  
+  <!--Stylesheet!-->
+  
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+  <!--
+  Code credited to Aiden GoodarziRad, Jayce Park, Jacy Brown, Ava Tamez, Cameron Hennigan, and Maxwell McMclure. Thank you so much to these amazing people!
+  Feel free to alter this code to your liking for feedback, but please do not re-host it, do not profit from it and do not present it as your own.
+  -->
+  
+  <!--CSS Code (index.html) -->
+  
+  <style type="text/css" media="screen">body
+  
+  
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: #fff;
+    }
+    img {
+      border: 5px solid #202124;
+    }
+    body {
+      background-color: #202124;
+      color: #fff;
+    }
+    ul {
+      background-color: #333;
+      color: #fff;
+    }
+    footer {
+      background-color: #202124;
+      color: #fff;
+    }
+    input {
+      background-color: #202124;
+      color: #fff;
+    }
+  }
+  
+  
+  @media (prefers-color-scheme: light) {
+    a {
+      color: #000;
+    }
+    img {
+      border: 5px solid #202124;
+    }
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+    ul {
+      background-color: #fff;
+      color: #000;
+    }
+    footer {
+      background-color: #fff;
+      color: #000;
+    }
+    input {
+      background: #fff;
+      color: #000;
+    }
+  }
+  
+  
+  input {
+    border-radius: 4px;
+    border: 1px solid blue;
+    width: 90%;
+  padding: 12px 20px;
+  }
+  
+  
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background: #fff;
+}
+
+.title {
+  font-size: 18px;
+}
+ 
+ 
+ .profile {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #555;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0px; !important
+ } 
+  
+  
+  .image {
+    border-radius: 0px;
+  }
+  
+  .zoom {
+    transition: transform 0.8s;
+    margin: auto;
+  }
+  
+  
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  } .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #300800;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 6px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
+  img { float: center;
+  	padding: 0px;
+  	margin: auto; 
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+    opacity: 1.0;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  
+  .text {
+    white-space: nowrap; 
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  
+  body { font-family: sans-serif;
+       text-align: center;  
+      font-size: 100%;
+      animation: fadeIn 2000ms;
+      background: linear-gradient(to right, black, #202124, black);
+      color: #0780BD;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      cursor:wait;
+display: grid;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: auto;
+float: center;
+text-align: center;
+}
+
+.container {
+width: ;
+height: ;
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+border-radius: 5px;
+position: relative;
+z-index: 1;
+background: inherit;
+overflow: hidden;
+}
+
+.container:before {
+content: "";
+position: absolute;
+background: inherit;
+z-index: -1;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+filter: blur(10px);
+margin: -20px;
+}
+  
+  
+  @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        
+  
+  p { font-size: 120%; } 
+  
+  
+  a {
+  text-decoration: none;
+
+  }
+  
+       
+       #more {display: none;}
+  
+  
+      #more2 {display: none;}
+  
+  
+  .collapsible {
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  
+  .active, .collapsible:hover {
+    background-color:;
+  }
+  
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: ;
+  }
+  
+  
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  button {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+  #loader {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #fff;
+  border-radius: 50%;
+  border-top: 16px solid #555;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  }
+  
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+  
+  
+  .err {
+    border: 1px solid #CCC;
+      border-right-color: #999;
+      border-left-color: #999;
+      border-bottom-color: #BBB;
+      border-top: #B00100 solid 4px;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+      background-color: #555;
+      border-style: solid;
+  }
+  
+  
+  .mes {
+    border: 1px solid #CCC;
+      border-right-color: #999;
+      border-left-color: #999;
+      border-bottom-color: #BBB;
+      border-top: #B00100 solid 4px;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+      background-color: #555;
+      border-style: solid;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#555, #ADACB2); 
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  
+  .context-menu {
+    position: absolute;
+    text-align: left;
+    font-size: 80%;
+    margin: auto
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0px 2px 2px #5B5B5B;
+    animation-name: smooth;
+    background-color: #000;
+    animation-duration: 0.2s;
+    padding: 5px;
+  }
+  
+  
+  @keyframes smooth {
+   0%{opacity: 0;}
+   100%{opacity: 1;}
+  }
+  
+    
+      .context-menu a:hover {
+        	background: #626262;
+        	border-radius: 8px;
+        	color: #fff;
+        transform: perspective(10px);
+        cursor: default;
+        color: #fff !important;
+      }
+      
+  
+  .blo {
+     cursor:not-allowed;
+  }
+  
+  
+   #snowflakeContainer {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      display: none;
+    }
+  
+  
+    .snowflake {
+      position: fixed;
+      background-color: #fff;
+      user-select: none;
+      z-index: 1000;
+      pointer-events: none;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+    }
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    position: fixed;
+    width: 110%;
+  }
+  
+  .a {
+    float: left;
+  }
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #A5BBE3;
+  }
+  
+  
+  .logo { color: midnightblue;
+      text-shadow: 10px 10px black;
+      text-shadow: 3px 5px 4px #000000 }  
+  
+  
+  ::selection {
+    background: #000;
+    color: #fff;
+  }
+  
+  
+  span {
+    animation-name: span;
+    animation-duration: 0.4s;
+  }
+  
+  
+  @keyframes span {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  }
+  
+  
+  footer {
+    border-radius: 4px;
+  }
+  
+
+  .settings {
+    opacity: 1.0;
+    display: block;
+  }
+  
+  
+  .menu {
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  padding-top: 60px;
+   -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+  background: ;
+  position: fixed;
+box-shadow: inset 0 0 60000px rgba(255, 255, 255, .5);
+width: 100%;
+  }
+
+.menu-content {
+width: 100%;
+}
+
+
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+  
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  .language {
+     border-radius: 4px;
+    text-align: left;
+    width: 90%;
+    padding: 12px 20px;
+  }
+  
+  
+  .languagetwo {
+           display: ; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+   -webkit-animation: animatezom 0.6s;
+  animation: animatezom 0.6s
+  }
+    
+    
+     @-webkit-keyframes animatezom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+  
+    
+  @keyframes animatezom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  .signtwo {
+             display: ; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+   -webkit-animation: animatezm 0.6s;
+  animation: animatezm 0.6s
+  }
+    
+    
+      @-webkit-keyframes animatezm {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+  
+    
+  @keyframes animatezm {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  .themetwo {
+           display: ; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+   -webkit-animation: animatez 0.6s;
+  animation: animatez 0.6s
+  }
+  
+  
+  @-webkit-keyframes animatez {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+  
+    
+  @keyframes animatez {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+
+.chat {
+  display: ; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+   -webkit-animation: animatez 0.6s;
+  animation: animatez 0.6s
+  }
+
+  </style>
+  <noscript>
+  <style>
+   .dis {
+    display: none;
+  } 
+  </style>
+  </noscript>
+  </head>
+  <body onload="loadFunction()" id="font">
+  <div id="settings" class="settings">
+  <div id="wait">
+  <!--
+  Main Body for the Website
+  Credits for images:
+  -->
+  
+  <!--JavaScript Error Message-->
+  
+  <div class="dis">
+  <noscript>
+    <div class="err"><h1>Oops, A fatal exception occured whilst loading the website.</h1>
+      <svg height="90" width="90">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+  <li>Error for this issue: JavaScript Seems to be disabled. Website assets may not work if you continue. Please enable JavaScript or get an updated browser like <a href="https://www.google.com/chrome/">Chrome</a>, <a href="https://www.microsoft.com/en-us/edge">Microsoft Edge</a>, or a more Updated Browser that supports JavaScript.</li>
+  </div>
+  <br>
+  <strong>From here you can navigate to these pages:</strong>
+  <hr>
+    <li><a href="#top"target="_blank">Basic HTML (In development)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=w6zLprHHZOk"target="_blank">Minecraft Live 2021↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/quiz-section"target="_blank">Gaming Center Quizzes↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/minecraft-section"target="_blank">Minecraft Section↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/ssb-ultimate"target="_blank">SSB Ultimate Section↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/valorant-section"target="_blank">Valorant Section↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/roblox-section"target="_blank">Roblox Section↗</a></li>
+    <li><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/python-quiz-article"target="_blank">Hypixel Guide LTM↗</a></li>
+  <hr>
+  <p>Property Of Gaming Center. Please do not reuse this code for commercial usage.</p>
+  <hr>
+  <strong>If you think this is an error, please report it at <a href="https://github.com/Aiden-GoodarziRad/Gaming-Center/issues"target="_blank">our GitHub. <strong>Error Code: 0xFG63</strong></a></strong>
+  </noscript>
+  <div class="dis">
+  <ul id="ul" class="li">
+    <li class="a"><a class="active" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/gaming-center-beta-build">Home</a></li>
+    <li class="a"><a href="https://github.com/Aiden-GoodarziRad/Gaming-Center-Description-.git"target="_blank">GitHub</a></li>
+    <li class="a"><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/previous-changelogs">Previous Changelogs</a></li>
+    <li class="a"><a href="">Sign In</a></li>
+    <li class="a"><a href="https://discord.gg/AvZEq2pt2G"target="_blank"> Gaming Center Discord Server</a></li>
+    <li class="a"><a onclick="document.getElementById('chat').style.display = 'block'">&#128172; Chat</a></li>
+        <li class="a"><a onclick="" id="requests"></a></li>
+  </ul>
+  <br>
+  <script>
+    var requests = 1;
+    
+    if (requests == 1) {
+      document.getElementById('requests').innerHTML = "&#128158; Friend Requests (1)";
+    }
+  </script>
+  <div id="chat" class="chat" style="display: none; background: #555;">
+    <div class="tooltip">
+      <button onclick="document.getElementById('chat').style.display = 'none';" id="close">&#10005;</button>
+        <span class="tooltiptext">Close</span>
+      </div>
+      <h1>Chat for Gaming Center!</h1>
+      <hr>
+      <li>This new feature will let you connect with your friends in every way with some other additional features that other chat services don't have!</li>
+      <hr>
+      <strong style="color:#fff;">Before you begin, please log into Gaming Center:</strong>
+      <hr>
+      <button style="width: 50%; background: #000; color: #fff;">Log in</button><strong style="color: #fff; font-size: 120%;"></strong>
+      <br>
+      <strong style="color: #fff; font-size: 120%;">Don't have an account?</strong>
+      <br>
+      <button style="width: 50%; background: #000; color: #fff;">Create an Account!</button><strong style="color: #fff; font-size: 120%;"></strong>
+      <script>
+       var signin == true;
+
+         if (signin == true) {
+           document.getElementById('messages').style.display = "block";
+         }
+      </script>
+  <div id="messages" style="display: none;">
+    fdjasfdx
+  </div>
+  
+  </div>
+  <!--Begining JavaScript HTML-->
+  
+  <script>
+    document.oncontextmenu = rightClick;
+    
+    function rightClick(clickEvent) {
+      click.Event.preventDefault();
+    }
+    
+  
+      document.onclick = hideMenu;
+      document.oncontextmenu = rightClick;
+        
+      function hideMenu() {
+          document.getElementById("contextMenu")
+                  .style.display = "none"
+      }
+    
+      function rightClick(e) {
+          e.preventDefault();
+    
+          if (document.getElementById("contextMenu")
+                  .style.display == "block")
+              hideMenu();
+          else{
+              var menu = document.getElementById("contextMenu")
+    
+              menu.style.display = 'block';
+              menu.style.left = e.pageX + "px";
+              menu.style.top = e.pageY + "px";
+          }
+      }
+  document.querySelector('body').addEventListener('contextmenu', function( event ) {
+  
+      event.preventDefault();
+     
+      document.execCommand('copy');
+  });
+  if(window.clipboardData) {
+      window.clipboardData.setData('Text', 'Text that will be copied to CB');        
+  } else if(ev.originalEvent.clipboardData) {
+      ev.originalEvent.clipboardData.setData('text/plain', 'Text that will be copied to CB');      
+  } else {
+      alert('Clipboard Data are not supported in this browser. Sorry.');
+  }
+  
+  var elem = document.documentElement;
+  </script>
+  <!--JS Cookies -->
+  <script>
+  document.cookie = "name=gaming_center; SameSite=None; Secure";
+  document.cookie = "_ga=tripe; SameSite=None; Secure";
+   document.cookie = "name=user; SameSite=None; Secure";
+  document.cookie = "browser_id=(browser_id); SameSite=None; Secure";
+  
+  
+  function showCookies() {
+    const output = document.getElementById('cookies')
+    output.textContent = '> ' + document.cookie
+  }
+  
+  function clearOutputCookies() {
+    const output = document.getElementById('cookies')
+    output.textContent = ''
+  }
+  </script>
+  <div id="snowflakeContainer">
+    <span class="snowflake"></span>
+  </div>
+  <script>
+    var snowflakes = [];
+  
+    var browserWidth;
+    var browserHeight;
+  
+    var numberOfSnowflakes = 0;
+  
+    var resetPosition = false;
+  
+    var enableAnimations = false;
+    var reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
+  
+    function setAccessibilityState() {
+      if (reduceMotionQuery.matches) {
+        enableAnimations = false;
+      } else { 
+        enableAnimations = true;
+      }
+    }
+    setAccessibilityState();
+  
+    reduceMotionQuery.addListener(setAccessibilityState);
+  
+    function setup() {
+      if (enableAnimations) {
+        window.addEventListener("DOMContentLoaded", generateSnowflakes, false);
+        window.addEventListener("resize", setResetFlag, false);
+      }
+    }
+    setup();
+  
+    function Snowflake(element, speed, xPos, yPos) {
+      this.element = element;
+      this.speed = speed;
+      this.xPos = xPos;
+      this.yPos = yPos;
+      this.scale = 1;
+  
+      this.counter = 0;
+      this.sign = Math.random() < 0.5 ? 1 : -1;
+  
+      this.element.style.opacity = (.1 + Math.random()) / 3;
+    }
+  
+    Snowflake.prototype.update = function () {
+      this.counter += this.speed / 5000;
+      this.xPos += this.sign * this.speed * Math.cos(this.counter) / 40;
+      this.yPos += Math.sin(this.counter) / 40 + this.speed / 30;
+      this.scale = .5 + Math.abs(10 * Math.cos(this.counter) / 20);
+  
+      setTransform(Math.round(this.xPos), Math.round(this.yPos), this.scale, this.element);
+  
+      if (this.yPos > browserHeight) {
+        this.yPos = -50;
+      }
+    }
+  
+    function setTransform(xPos, yPos, scale, el) {
+      el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0) scale(${scale}, ${scale})`;
+    }
+  
+    function generateSnowflakes() {
+  
+      var originalSnowflake = document.querySelector(".snowflake");
+  
+      var snowflakeContainer = originalSnowflake.parentNode;
+      snowflakeContainer.style.display = "block";
+  
+      
+      browserWidth = document.documentElement.clientWidth;
+      browserHeight = document.documentElement.clientHeight;
+  
+  
+      for (var i = 0; i < numberOfSnowflakes; i++) {
+  
+      
+        var snowflakeClone = originalSnowflake.cloneNode(true);
+        snowflakeContainer.appendChild(snowflakeClone);
+  
+        
+        var initialXPos = getPosition(50, browserWidth);
+        var initialYPos = getPosition(50, browserHeight);
+        var speed = 5 + Math.random() * 40;
+  
+        
+        var snowflakeObject = new Snowflake(snowflakeClone,
+          speed,
+          initialXPos,
+          initialYPos);
+        snowflakes.push(snowflakeObject);
+      }
+  
+     
+      snowflakeContainer.removeChild(originalSnowflake);
+  
+      moveSnowflakes();
+    }
+  
+    
+    function moveSnowflakes() {
+  
+      if (enableAnimations) {
+        for (var i = 0; i < snowflakes.length; i++) {
+          var snowflake = snowflakes[i];
+          snowflake.update();
+        }      
+      }
+  
+    
+      if (resetPosition) {
+        browserWidth = document.documentElement.clientWidth;
+        browserHeight = document.documentElement.clientHeight;
+  
+        for (var i = 0; i < snowflakes.length; i++) {
+          var snowflake = snowflakes[i];
+  
+          snowflake.xPos = getPosition(50, browserWidth);
+          snowflake.yPos = getPosition(50, browserHeight);
+        }
+  
+        resetPosition = false;
+      }
+  
+      requestAnimationFrame(moveSnowflakes);
+    }
+  
+  
+    function getPosition(offset, size) {
+      return Math.round(-1 * offset + Math.random() * (size + 2 * offset));
+    }
+  
+  
+    function setResetFlag(e) {
+      resetPosition = true;
+    }
+  </script>
+   <div class="aero">
+   <div id="contextMenu" class="context-menu" 
+      style="display: none">
+          <a style="color: #fff; font-size: 16px; padding: 8px;" href="history.back()"> &#8592;</a><a style="color: #fff; font-size: 16px; padding: 8px;" href="history.forward()">&#8594;</a><a style="color: #fff; font-size: 16px; padding: 8px;" href="">&#10227;</a>
+          <hr>
+          <a style="color: #fff; font-size: 16px;" onclick="openFullscreen();">Fullscreen (F11/FULL SCREEN BUTTON)</a>
+          <hr>
+          <a style="color: #fff; font-size: 16px;">Copy (Ctrl + C)</a><strong style="font-size: 16px; color: #fff; float: right;">&#128462;</strong>
+          <hr>
+          <a style="color: #fff; font-size: 16px;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/gaming-center-beta-build"target="_blank">Home Page</a><strong style="font-size: 16px; color: #fff; float: right;">&#8962;</strong>
+          <hr>
+          <a style="color: #fff; font-size: 16px;" href="#top">Back to top</a><strong style="font-size: 16px; color: #fff; float: right;">&#8593;</strong>
+          <br>
+          <a style="color: #fff; font-size: 16px;" onclick="settings();">Settings</a><strong style="font-size: 16px; color: #fff; float: right;">&#9881;</strong>
+          <hr>
+          <a style="color: #fff; font-size: 16px;" href="https://github.com/Aiden-GoodarziRad/Gaming-Center/issues"target="_blank">Report An Issue!</a><strong style="font-size: 16px; color: #fff; float: right;">X</strong>
+          <hr>
+          <a style="color: #fff; font-size: 16px;" href=""target="_blank">Help</a><strong style="font-size: 16px; color: #fff; float: right;">?</strong>
+  </div>
+  </div>
+    <p id="welcome"></p><h1 class="logo">Welcome To Gaming Center</h1><p style="font-size: 70%; color: midnightblue; transform: rotate(-6deg) rotateX(10deg) skewX(2deg);"></p>
+        <hr>
+  <div id="loader">Loading Website Assests</div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+  </div>
+  <script>
+  var myVar;
+  
+  function loadFunction() {
+    myVar = setTimeout(showPage, 100);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById('wait').style.cursor = "initial";
+  }
+  </script>
+  <button><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/1-0-80-stable-branch-one-for-gaming-center"target="_blank">1.0.80 Stable Branch One</a></button>
+  <div class="tooltip">
+  <button><a id="#changelog" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/sign-in"target="_blank">Sign In↗</a></button><button><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/cool"target="_blank">Exit Beta↗</a></button>
+  <span class="tooltiptext">Sign Into Gaming Center & Exit Beta</span>
+  </div>
+  <button type="button" class="collapsible">1.2.00.10 Beta Changelog</button>
+  <div class="content">
+  <p>February 23rd, 2022: Beta 1.2.00.10 is out with several different overhalls with website features and a new Gaming Center Quiz!</p>
+  <hr>
+  <p>February 16th, 2022: Beta 1.2.00 is out with several major changes and more! This update also contains the spring version of the website, so no valentines theme for the website anymore!</p>
+  <hr>
+  <h2 style="font-family: sans-serif;
+  color: green;">Bug Fixes! (FG Stands for Fixed Glitch)</h2>
+  <hr>
+  <strong>Due to the Gaming Center GitHub, please report issues there. These issues have been found by our developers!</strong>
+  <hr>
+  <li>FG 119: Fixed several context menu issues</li>
+  <hr>
+  <li>FG 120: Removed several useless hyperlinks</li>
+  <hr>
+  <li>FG 123: Fixed an error with alternatives for images.</li>
+  <hr>
+  <h3 style="font-size: 140%;
+      text-align: left
+      font-family: sans-serif;
+      color: green; ">Changes, Technical Changes, and Additions!</h3>
+  <hr>
+  <h1>General Changes/Additions:</h1>
+  <hr>
+  <li>Updated gaming sections</li>
+  <li>Added a settings menu</li>
+  <li>Updated the Nav Bar</li>
+  <li>New Discord Server</li>
+  <li>New menu navigation</li>
+  <li>New website theme</li>
+  <li>Huge overhaul to credits</li>
+  <li>HTML Web Storage Application</li>
+  <li>Overhaul change to sections</li>
+  <hr>
+  <h1 style="color: #fff;">1.2.00.10 Additions:</h1>
+  <hr>
+  <li>New chat</li>
+  <li>Friend Requests</li>
+  <li>Newer menus</li>
+  <hr>
+  <h1>Technical Changes:</h1>
+  <hr>
+  <code style="background: #000; color: #fff;">Changed !DOCTYPE HTML to !doctype html</code>
+  <br>
+  <code style="background: #000; color: #fff;">Added IE Conditions and Meta Tags to emulate IE 9 Behaviour for IE versions</code>
+  <br>
+  <code style="background: #000; color: #fff;">CSS Code extended to 699 lines of code (649 lines of code not including header)</code>
+  <br>
+  <code style="background: #000; color: #fff;">Hex Code values changed</code>
+  <br>
+  <code style="background: #000; color: #fff;">Browser Version support chart on GitHub and Error Codes on the website</code>
+  <br>
+  <code style="background: #000; color: #fff;">Webkit Changes were applied for smoother animations <strong style="color: red;">SOME NOT SUPPORTED ON FIREFOX</strong></code>
+  <br>
+  <strong style="color: #fff;">Full blog post on GitHub (May take some time to get the full changelog out on GitHub and on here)</strong>
+  <h1 style="font-size: 100%;">Credits: Without these amazing people, this website wouldn't be what it is today! Thank you.</h1>
+  <hr>
+  <div class="card">
+  <img class="image" src="https://i.imgur.com/fE4iTc2.png" alt="aiden.png" style="width:100% border-radius: 0; !important">
+  <h1 style="color: #000;">Aiden GoodarziRad</h1>
+  <p class="title">CEO and head of programming</p>
+  <hr>
+  <strong style="color: #000;">Links:</strong>
+  <hr>
+  <div style="margin: 24px 0;">
+    <a href="https://www.youtube.com/channel/UCL8zsufz10aX8oSORp6Fj8Q" target="_blank">YouTube</a> 
+    <br>
+    <a href="https://github.com/Aiden-GoodarziRad/Gaming-Center" target="_blank">GitHub</a>  
+  </div>
+  <button class="profile"><a href="mailto:oldregentcell@gmail.com"target="_blank">Contact</a></button>
+</div>
+  <br>
+  <div class="card">
+  <img class="image" src="https://i.imgur.com/Iv23C7v.png" alt="jayce.png" style="width:100% border-radius: 0; !important">
+  <h1 style="color: #000;">Jayce Park</h1>
+  <p class="title">(Moderator): Helping with typos, tags, the Super Smash Bros. Section, the Valorant Section, and the Quizzes Section.</p>
+  <hr>
+  <strong style="color: #000;">Links:</strong>
+  <hr>
+  <div style="margin: 24px 0;">
+    <a href="https://www.tiktok.com/@jaycethechild" target="_blank">TikTok</a> 
+  </div>
+  <button class="profile"><a href="mailto:park.jayc2027@ssusdschools.org"target="_blank">Contact</a></button>
+</div>
+  <br>
+  <div class="card">
+  <img class="image" src="https://i.imgur.com/QVy9QKq.png" alt="jacy.png" style="width:100% border-radius: 0; !important">
+  <h1 style="color: #000;">Jacy Brown</h1>
+  <p class="title">(Moderator): Helping with the quiz section and Roblox Section.</p>
+  <hr>
+  <strong style="color: #000;">Links:</strong>
+  <hr>
+  <div style="margin: 24px 0;">
+    <a href="https://www.youtube.com/c/Superella1" target="_blank">YouTube</a> 
+    <br>
+    <a href="https://twitter.com/strqzberries" target="_blank">Twitter</a>
+  </div>
+  <button class="profile"><a href="mailto:brown.jacy2028@ssusdschools.org"target="_blank">Contact</a></button>
+</div>
+  <br>
+  <div class="card">
+  <img class="image" src="https://i.imgur.com/665CIKe.png" alt="default_winter.png" style="width:100% border-radius: 0; !important">
+  <h1 style="color: #000;">Cameron Hennigan</h1>
+  <p class="title">Helper for Gaming Center</p>
+  <hr>
+  <strong style="color: #000;">Links:</strong>
+  <hr>
+  <div style="margin: 24px 0;">
+    <strong style="color: #000;">There's not much here.. Check back later!</strong>
+  </div>
+  <button class="profile"><a href="mailto:henni.came2028@ssusdschools.org"target="_blank">Contact</a></button>
+</div>
+   <br>
+   <div class="card">
+  <img class="image" src="https://i.imgur.com/lF6f96r.png" alt="mr_turtle09" style="width:100% border-radius: 0; !important">
+  <h1 style="color: #000;">Mr. Turtle09</h1>
+  <p class="title">Helper for Gaming Center</p>
+  <hr>
+  <strong style="color: #000;">Links:</strong>
+  <hr>
+  <div style="margin: 24px 0;">
+    <a href="https://www.youtube.com/channel/UCIIyfEfq275Fa4T3dLLiV2w"target="_blank">YouTube</a>
+    <br>
+    <a href="https://www.twitch.tv/mr_turtle09"target="_blank">Twitch</a>
+    <br>
+    <a href="https://discord.gg/7pQ9uPHR"target="_blank">Discord Server</a>
+  </div>
+  <button class="profile"><a href="mailto:barra.broc2028@ssusdschools.org"target="_blank">Contact</a></button>
+</div>
+  <li>And a HUGE shoutout to Mr. Livingston for teaching me HTML.</li>
+  <li>Color Codes: <a href="https://htmlcolorcodes.com/"target="_blank">www.htmlcolorcode.com</a>. Thank you to this website for supplying us with a diverse range of colors!</li>
+  <li>Lastly, our HTML Editor: <a href="https://www.trinket.io"target="_blank">Trinket</a></li>
+  <hr>
+  <p>Email these 3 addresses for feedback and bugs you find on the website (SCHOOL ONLY): <a href="mailto:gooda.aide2028@ssusdschools.org"target="_blank">Aiden GoodarziRad</a>, <a href="mailto:park.jayc2027@ssusdschools.org"target="_blank">Jayce Park</a>, and <a href="mailto:brown.jacy2028@ssusdschools.org"target="_blank">Jacy Brown</a></p>
+  <br>
+  <strong>Download this changelog:</strong>
+  <hr>
+  <button class="language" style="text-align: center; font-size: 24px;"><a href="" download="changelog"target="_blank">&#11123;</button></a>
+  </div>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+  <hr>
+  <a href="https://www.youtube.com/watch?v=vdrn4ouZRvQ"target="_blank">
+  <img class="zoom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2lZakzJ50N75ErOiINrzQSRCxhE1zLvf57C_A2O3NF6SSrrj5NbLOQQeJuyn00R7Xk_g:https://www.wepc.com/wp-content/uploads/2021/11/1.18-part-2.jpg&usqp=CAU">
+  </a>
+  <hr>
+  <p>IMPORTANT: The trinket website will be moved to another program shortly <span id="dots">...</span><span id="more">For Technical Reasons, we will move our trinket website to another program. The date when we move our website is still not determined, but we will try to keep our trinket website supported for as long as we can!</span></p>
+  <script>
+  function miFunction() {
+       var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("Btn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+  <br>
+  <button class="button" id="Btn" type="button" onclick="miFunction()">Read More</button>
+  <hr>
+  <h2 style="font-family: Sans-Serif;">On this website you will be able to post Game tricks, tips, and tutorials. There will be sections for Minecraft, SSB Ultimate, etc.</h2>
+  <hr>
+  <p>Links! NOTE: I do not take any credit for games, images, and videos releated or mentioned on this website. </p>
+  <hr>
+  <button class="blo" href="javascript:void(0)">Hyperlinks:</button>
+  <div id="myDropdown" class="dropdown-content">
+    <br>
+    <input onclick="border()" type="text" placeholder="Search Hyperlinks.." id="myInput" onkeyup="filterFunction()">
+    <div class="dropdown-content">
+    <a style="font-size: 130%;" href="https://www.youtube.com/watch?v=w6zLprHHZOk"target="_blank">Minecraft Live 2021↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/quiz-section"target="_blank">Gaming Center Quizzes↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/minecraft-section"target="_blank">Minecraft Section↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/ssb-ultimate"target="_blank">SSB Ultimate Section↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/valorant-section"target="_blank">Valorant Section↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/roblox-section"target="_blank">Roblox Section↗</a>
+    <br>
+    <a style="font-size: 130%;" href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/python-quiz-article"target="_blank">Hypixel Guide LTM↗</a>
+  </div>
+  </div>
+  <!--
+  Filter and Search Function (JavaScript)
+  -->
+  <script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none"; 
+      }
+    }
+  }
+  </script>
+  <!-- Onclick Function-->
+  <script>
+    function border() {
+      document.getElementById('input').style.borderBottom = "4.5px solid #CD00FF";
+    }
+  </script>
+  <hr>
+  <p>I hope you will learn something about your favorite game. Enjoy!</p>
+  <hr>
+  <script>
+    function bottom() {
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("Btn2");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "More Information";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Less Information";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+  <button class="button" id="Btn2" type="button" onclick="bottom()">More Information</button>
+  <span id="more2">
+  <h3 style="font-size: 140%;
+      text-align: left
+      font-family: sans-serif;
+      color: green; ">News Section!</h3>
+  <hr>
+  <img class="zoom" alt="hypixel_guide_ltm" src="data:image/jpeg;base64,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">
+  <h4>Hypixel Guide LTM is now live!</h4>
+  <hr>
+  <div class="tooltip">
+  <button><a href="https://gooda-aide2028-ssusdschools-org.trinket.io/sites/ssb-article"target="_blank">Read More↗</a></button>
+  <span class="tooltiptext">Read More about the Hypixel Guide LTM</span>
+  </div>
+  <br>
+  <p>Read about one of Minecraft's largest, most competitive server!</p>
+  <hr>
+  <!--
+  Additonal Website Resources with JavaScript and Browser info
+  -->
+  <div class="website-info" id="smooth">
+  <strong>Aditional Website Resources</strong>
+  <hr>
+  <div class="tooltip">
+  <button class="button" onclick="window.print()">Print This Page</button>
+  <span class="tooltiptext">Print This Webpage</span>
+  </div>
+  <p style="font-size: 70%;
+  color: gray;" id="windowsize"></p>
+  <p style="font-size: 70%;
+  color: #555;">RECOMMENDED SCREEN SIZE: 1980 x 1080 MINIMUM SCREEN SIZE: 493 x 0 </p>
+  <script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+  
+    var x = document.getElementById('windowsize');
+  x.innerHTML = "Browser Width: " + w + ", Browser Height: " + h + ".";
+  </script>
+  <hr>
+  <bold>Computer Time and Date (REFRESH FOR UPDATED TIME):</bold>
+  <hr>
+  <p style="font-size: 70%;
+  color: #555;" id="date"></p>
+  <script>
+    document.getElementById('date').innerHTML = Date()
+  </script>
+  <hr>
+  <p style="font-size: 70%;
+  color: #555;" id="href"></p>
+  <hr>
+  <p style="font-size: 70%;
+  color: #555;" id="host"></p>
+  <script>
+  document.getElementById('href').innerHTML =
+  "Current URL of this page: " + window.location.href;
+  document.getElementById("host").innerHTML =
+  "Page hostname is " + window.location.hostname;
+  </script>
+  </div>
+  <p id="GFG_UP"
+         style="font-size: 19px; 
+                font-weight: bold;">
+      </p>
+  <h1 id="GFG_DOWN" 
+         style="
+                font-size: 24px; ">
+      </h1>
+  <div id="clicked">
+  <button onclick="os_read()" id="toggle">Read Your OS (Operating System)</button>
+  </div>
+  <br>
+  <strong>Click <a href="https://github.com/Aiden-GoodarziRad/Gaming-Center/projects"target="_blank">here</a> to learn how to make a modded/third-party release for Gaming Center!</strong>
+  <br>
+  <script>
+      HTMLDocument.prototype.e = document.getElementById;
+      var el_up = document.e("GFG_UP");
+      var el_down = document.e("GFG_DOWN");
+      el_up.innerHTML = "";
+      var Name = "Not known";
+      if (navigator.appVersion.indexOf("Win") != -1) Name = 
+        "Windows OS";
+      if (navigator.appVersion.indexOf("Mac") != -1) Name = 
+        "MacOS/iOS";
+      if (navigator.appVersion.indexOf("X11") != -1) Name = 
+        "UNIX OS";
+      if (navigator.appVersion.indexOf("Linux") != -1) Name = 
+        "Linux OS";
+  
+      function os_read() {
+          el_down.innerHTML = Name;
+      }
+      </script>
+    </span>
+    <br>
+      <script>
+         function settings() {
+        document.getElementById('menu').style.display = "inline-block";
+        }
+      </script>
+      <footer class="container">
+        <h1>Website Footer:</h1>
+        <strong style="font-size: 70%; color: #000;">Version: Gaming Center Pre-Release Copy (Public Release). Development Version: v1.2.40.0. NOT A MODDED/THIRD-PARTY RELEASE.</strong>
+        <hr>
+        <strong style="font-size: 70%; color: #000;">HTML Version: HTML5</strong>
+        <hr>
+        <strong style="font-size: 70%; color: #000;" id="signin">Sign In Status:</strong>
+        <hr>
+        <strong style="font-size: 70%; color: #000;">GitHub: <a href="https://github.com/Aiden-GoodarziRad/Gaming-Center.git"target="_blank">https://github.com/Aiden-GoodarziRad/Gaming-Center.git</a></strong>
+        <hr>
+        <strong style="font-size: 16px; color: #000;"><button onclick="settings();">&#9881;</button></strong>
+      </footer>
+         <a href="#top">Back to Top</a>
+       <div class="menu" id="menu" style="display: none; float: top; text-align: top;">
+          <div class="menu-content">
+          <div class="tooltip">
+          <button onclick="document.getElementById('menu').style.display = 'none'; document.getElementById('settings').style.opacity = '1';" id="close">&#10005;</button>
+           <span class="tooltiptext">Close the Settings Menu</span>
+          </div>
+          <h1>Settings</h1>
+          <hr>
+          <strong style="color: #fff; font-size: 130%;">General</strong>
+          <hr>
+          <button id="language" class="language" onclick="document.getElementById('signtwo').style.display = 'block';">Account Management/Account Settings &#8594;</button>
+          <hr>
+          <strong style="color: #fff; font-size: 130%;">Accesibility</strong>
+          <hr>
+          <button id="language" class="language" onclick="document.getElementById('languagetwo').style.display = 'block';">Language &#8594;</button>
+          <br>
+          <button class="language" onclick="document.getElementById('themetwo').style.display = 'block';">Website Apperance/Theme &#8594;</button>
+          <br>
+          <button class="language">Background Settings</button>
+          <hr>
+          <strong style="color: #fff; font-size: 130%;">Social Settings</strong>
+          <hr>
+          <button class="language">Messages</button>
+          <br>
+          <button class="language">Voice Chat Settings</button>
+          <br>
+           <button class="language">Notification Settings</button>
+           <br>
+           <button class="language">Chat Settings</button>
+        </div>
+        </div>
+        </div>
+        <div id="languagetwo" class="languagetwo" style="display: none;">
+            <div class="tooltip">
+          <button onclick="document.getElementById('languagetwo').style.display = 'none'; document.getElementById('settings').style.opacity = '1';" id="close"> &#8592;</button>
+           <span class="tooltiptext">Back to Settings</span>
+           </div>
+            <h2>Please select a language.</h2>
+             <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+        <hr>
+        </div>
+          <div id="signtwo" class="signtwo" style="display: none;"> 
+            <div class="tooltip">
+          <button onclick="document.getElementById('signtwo').style.display = 'none'; document.getElementById('settings').style.opacity = '1';" id="close"> &#8592;</button>
+           <span class="tooltiptext">Back to Settings</span>
+           </div>
+           <strong>Hey! Please sign in to Gaming Center to access this part of the settings menu! If you can't sign in to Gaming Center, please check the sign in status. If you think this is an error, please file a bug report at our <a href="https://github.com/Aiden-GoodarziRad/Gaming-Center/issues"target="_blank">GitHub!</a></strong>
+        </div>
+      <div id="themetwo" class="themetwo" style="display: none;">
+      <div class="tooltip">
+          <button onclick="document.getElementById('themetwo').style.display = 'none'; document.getElementById('settings').style.opacity = '1';" id="close"> &#8592;</button>
+           <span class="tooltiptext">Back to Settings</span>
+              </div>
+              <h2>Choose a theme:</h2>
+              <br>
+                  <button id="device_theme" onclick="deviceTheme()">Device Theme &#10003;</button>
+                  <button id="dark_mode" onclick="darkMode();">Dark Mode</button>
+                  <button id="light_mode" onclick="lightMode()">Light Mode</button>
+                <script>
+                  function deviceTheme() {
+                    document.getElementById('device_theme').innerHTML = "Device Theme&#10003;";
+                     document.getElementById('dark_mode').innerHTML = "Dark Mode";
+                    document.getElementById('light_mode').innerHTML = "Light Mode";
+                    
+                  }
+                  
+                  function darkMode() {
+                    document.getElementById('dark_mode').innerHTML = "Dark Mode &#10003;";
+                    document.getElementById('device_theme').innerHTML = "Device Theme";
+                    document.getElementById('light_mode').innerHTML = "Light Mode";
+                    document.getElementById('menu').style.background = "#000";
+                    document.getElementsByTagName('button').style.background = "#202124";
+                    document.getElementsByTagName('button').style.color = "#fff";
+                    document.getElementsByTagName('a').style.color = "#fff";
+                    document.getElementById('font').style.background = "#000";
+                    document.getElementById('font').style.color = "#fff";
+                    window.localStorage.setItem("darkMode");
+                    window.localStorage.removeItem("deviceTheme");
+                  }  
+                  
+                    function lightMode() {
+                    document.getElementById('dark_mode').innerHTML = "Dark Mode";
+                    document.getElementById('device_theme').innerHTML = "Device Theme";
+                    document.getElementById('light_mode').innerHTML = "Light Mode &#10003;";
+                    document.getElementById('menu').style.background = "#fff";
+                    document.getElementsByTagName('a').style.color = "#000";
+                    document.getElementById('font').style.background = "#fff";
+                    document.getElementById('font').style.color = "#000";
+                    document.getElementById('language').style.background = "#fff";
+                    document.getElementById('ul').style.background = "#fff"
+                    document.getElementById('footer').style.background = "#fff"
+                    document.cookie = "lightMode=wqeiruhq; expires=Thur, 1 Jan 00:00:00 GMT; Secure";
+                  }
+                </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--
+END OF HTML DOCUMENT
+-->
+  </body>
+</html>
+
